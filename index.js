@@ -5,7 +5,7 @@ const character = newImage('assets/green-character/static.gif')
 
 function handleDirectionChange(direction){
     if(direction === null){
-        character.src = `assets/green-character/static.gif`
+        character.src = "assets/green-character/static.gif"
     }
     if(direction === 'west'){
         character.src = `assets/green-character/west.gif`
